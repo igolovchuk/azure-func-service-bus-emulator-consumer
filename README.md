@@ -3,7 +3,7 @@ Extended version of Azure Service Bus Emulator [example](https://github.com/piot
 
 # Getting Started
 TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Install cacert.cer (MacOS - under System keychain), use ```sudo docker cp {emulator-containerId}:/app/cert.pfx cert.pfx``` to grab the .cer file.
+1.	Install cacert.cer (MacOS - under System keychain), use ```sudo docker cp {emulator-containerId}:/app/cacert.cer cacert.cer``` to grab the .cer file.
 2.	Install cert.pfx, password: password (MacOS - under System keychain), use ```sudo docker cp {emulator-containerId}:/app/cert.pfx cert.pfx``` to grab the .pfx file.
 3.	Run in the terminal: ```docker compose up -d``` , under the project root
 4.	Run the application in debug node
